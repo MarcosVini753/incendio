@@ -1,0 +1,24 @@
+# Dependencias do pipeline em pipeline/ + treinar_*.py
+# Instalar com:  python -m pip install -r requirements-pipeline.txt
+#
+# Diferencas em relacao a requirements.txt:
+#  * requirements.txt esta gravado em UTF-16, o que o pip nao le de forma
+#    confiavel; este arquivo esta em UTF-8.
+#  * tensorflow e keras foram removidos: Risco_de_Incendio.py os importa mas
+#    nao usa nenhuma funcao deles, e o import falha se o TF nao estiver
+#    instalado, impedindo o script de rodar.
+#  * imagecodecs, pyproj e pyarrow foram acrescentados: sao necessarios para
+#    ler os GeoTIFF comprimidos em LZW, reprojetar UTM19S <-> WGS84 e gravar
+#    as tabelas em parquet, respectivamente.
+
+numpy==2.4.6
+pandas==3.0.5
+scikit-learn==1.9.0
+scipy==1.17.1
+matplotlib==3.11.1
+joblib==1.5.3
+openpyxl==3.1.5
+tifffile==2026.3.3
+imagecodecs==2026.3.6
+pyproj==3.7.2
+pyarrow==22.0.0

@@ -1,0 +1,33 @@
+# Ambientes virtuais Python
+venv/
+venv_tf/
+.venv/
+
+# Arquivos Python compilados/cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Dados de saída gerados pelo script
+CSVsF1Score/
+*.csv
+
+# Imagens de mapa geradas
+mapa_risco_incendio.png
+
+# Pyenv
+.python-version
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo

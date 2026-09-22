@@ -60,4 +60,4 @@ Antes de executar o classificador kNN Fuzzy, as quatro variáveis de entrada ($X
 #   i n c e n d i o  
  #   i n c e n d i o  
  #   i n c e n d i o  
- 
+ # incendio
