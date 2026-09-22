@@ -59,4 +59,5 @@ Antes de executar o classificador kNN Fuzzy, as quatro variáveis de entrada ($X
 * **Padronização (`StandardScaler`)**: Os valores das variáveis são normalizados para que tenham **média igual a zero e variância igual a um**. Isso é feito porque as amplitudes numéricas diferem muito (a altitude está na casa das centenas, enquanto as distâncias estão na casa dos milhares), impedindo que as variáveis com maiores valores numéricos distorçam o peso de proximidade geométrica no classificador.
 #   i n c e n d i o  
  #   i n c e n d i o  
+ #   i n c e n d i o  
  
